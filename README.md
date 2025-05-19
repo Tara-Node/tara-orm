@@ -1,5 +1,3 @@
-# @mements/tara-orm
-
 A type-safe persistence layer for AI agents with semantic memory and structured I/O.
 
 ```typescript
@@ -386,5 +384,3 @@ VERBOSE_MODE=true             // Enable detailed logging
 | Grok     | grok-1                        | GROK_API_KEY         |
 
 ---
-
-MIT Licensed | [Mements Team](https://github.com/mements)
