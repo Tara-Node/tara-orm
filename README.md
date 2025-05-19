@@ -1,7 +1,6 @@
 A type-safe persistence layer for AI agents with semantic memory and structured I/O.
 
 ```typescript
-import { Agent } from '@mements/tara-orm';
 import { z } from 'zod';
 
 const ticketSchema = z.object({ issue: z.string() });
@@ -13,7 +12,6 @@ const supportAgent = Agent('support').init(ticketSchema, responseSchema);
 
 ```bash
 # Install the package
-npm install @mements/tara-orm zod
 
 # Set up your environment variables
 echo "EMBEDDINGS_API_KEY=your_key" > .env
@@ -21,7 +19,6 @@ echo "ANTHROPIC_API_KEY=your_key" >> .env  # Or any other LLM provider
 ```
 
 ```typescript
-import { Agent } from '@mements/tara-orm';
 import { z } from 'zod';
 
 // 1. Define your schemas
@@ -90,7 +87,6 @@ When you create and use an agent, here's what happens under the hood:
 Let's build a complete customer support agent with retrieval-augmented generation:
 
 ```typescript
-import { Agent } from '@mements/tara-orm';
 import { z } from 'zod';
 
 // Define ticket schema with customer data and convertaraon history
