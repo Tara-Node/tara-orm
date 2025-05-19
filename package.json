@@ -1,0 +1,25 @@
+{
+  "name": "sati-orm",
+  "version": "2025.02.28",
+  "module": "./src/sati.ts",
+  "main": "./src/sati.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "bin": {
+    "agent": "dist/index.js"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "server": "react-dom/server",
+    "short-unique-id": "^5.2.0",
+    "sqlite-vec": "^0.1.7-alpha.2",
+    "zod": "^3.24.1",
+    "zodex": "^0.18.2"
+  }
+}
